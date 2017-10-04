@@ -1,5 +1,5 @@
 #wallpaper {
-  background-image: url('https://emreu95.github.io/media/finalBG.jpg');
+  background-image: url("https://emreu95.github.io/media/finalBG.jpg");
   position: fixed;
   z-index: -1;
   top: 0;
@@ -9,9 +9,11 @@
   width: 100%;
   height: 100%;
 }
+
 body {
   margin: 0;
 }
+
 #navTray #navBar ul {
   position: fixed;
   top: 0;
@@ -29,29 +31,30 @@ body {
 }
 #navTray #navBar li a {
   display: block;
-  color: #eae0d5;
+  color: #EAE0D5;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 #navTray #navBar li a:hover:not(.active) {
-  background-color: #5e503f;
+  background-color: #5E503F;
   transition: 0.6s;
 }
 #navTray #navBar .active {
   color: #fff;
-  background: #0c0c0c;
+  background: #0C0C0C;
 }
 #navTray #navBar.inactive {
   height: 20px;
 }
 #navTray .loca {
-  background-color: #0c0c0c;
+  background-color: #0C0C0C;
 }
+
 header {
   height: 300px;
   width: 100%;
-  background-color: #0c0c0c;
+  background-color: #0C0C0C;
   position: relative;
   text-align: center;
   padding: 0 5px;
@@ -64,6 +67,7 @@ header img {
   border-radius: 100%;
   top: 10%;
 }
+
 .start {
   position: absolute;
   top: 93%;
@@ -74,12 +78,14 @@ header img {
   margin-top: 10px;
   text-align: center;
   background-color: transparent;
-  color: #eae0d5;
+  color: #EAE0D5;
   border: 0px solid white;
 }
+
 .invisible {
   display: none;
 }
+
 .close {
   display: inline-block;
   width: 16px;
@@ -89,6 +95,7 @@ header img {
   right: 25px;
   cursor: pointer;
 }
+
 .tray {
   position: fixed;
   top: 0;
@@ -97,6 +104,7 @@ header img {
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
 }
+
 .modal {
   padding: 20px 30px;
   width: 600px;
@@ -105,11 +113,13 @@ header img {
   margin: 5% auto 0;
   background: #fff;
 }
+
 #modalClick {
   text-decoration: none;
   text-align: center;
   color: black;
 }
+
 .transparent {
   height: 200px;
   width: 100%;
@@ -118,11 +128,12 @@ header img {
   justify-content: space-evenly;
   align-items: center;
 }
+
 #multiCol {
   position: relative;
   width: 100%;
   height: 400px;
-  background-color: #5e503f;
+  background-color: #5E503F;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
@@ -146,19 +157,21 @@ header img {
   margin: 5px;
   border-radius: 10%;
 }
+
 #quote {
   position: relative;
   width: 100%;
   height: 100px;
-  background-color: #5e503f;
+  background-color: #5E503F;
   text-align: center;
   align-items: center;
   justify-content: center;
   padding: px 0;
 }
+
 #videoTray {
   height: 400px;
-  background-color: #5e503f;
+  background-color: #5E503F;
   position: relative;
   display: flex;
   justify-content: space-evenly;
@@ -169,49 +182,58 @@ header img {
   width: 95%;
   position: absolute;
   border: 10px solid;
-  border-color: #a55c08;
+  border-color: #A55C08;
   padding-top: 10px;
   text-align: center;
 }
+
 #carouseltray {
   justify-content: center;
   align-items: center;
   vertical-align: middle;
   display: flex;
 }
+
 #carousel-previous {
   font-size: 40px;
 }
+
 #carousel-next {
   font-size: 40px;
 }
+
 .carouseltray button:last-of-type {
   background-image: url(https://emreu95.github.io/media/square3.jpg);
 }
+
 .carousel {
   height: 600px;
   width: 1000px;
   overflow: hidden;
 }
+
 ul.carousel {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
   width: 1000%;
 }
+
 li {
   display: inline-block;
 }
+
 .subtext {
   text-align: center;
 }
+
 #footer {
   text-align: center;
   margin-top: 250px;
   height: 150px;
   padding-top: 100px;
-  background-color: #0c0c0c;
-  color: #c6ac8f;
+  background-color: #0C0C0C;
+  color: #C6AC8F;
   position: absolute;
   left: 0;
   right: 0;
@@ -220,16 +242,20 @@ li {
   height: 40px;
   margin: 0 7px;
 }
+
 .fade {
   opacity: 1;
-  transition: opacity 0.8s ease-in-out;
-  -moz-transition: opacity 0.8s ease-in-out;
-  -webkit-transition: opacity 0.8s ease-in-out;
+  transition: opacity .8s ease-in-out;
+  -moz-transition: opacity .8s ease-in-out;
+  -webkit-transition: opacity .8s ease-in-out;
 }
+
 .fade:hover {
   opacity: 0.1;
 }
+
 html {
   font: 1em sans-serif;
 }
+
 /* fade in/out reference: https://bavotasan.com/2011/a-simple-fade-with-css3/ */
